@@ -1,0 +1,48 @@
+{
+    "configurations": {
+        "standart_python_config": {
+            "adapter": "debugpy",
+            "filetypes": [
+                "python"
+            ],
+            "configuration": {
+                "request": "launch",
+                "type": "python",
+                "cwd": "${fileDirname}",
+                "args": [],
+                "program": "${file}",
+                "stopOnEntry": true,
+                "console": "integratedTerminal",
+                "integer": 123
+            },
+            "breakpoints": {
+                "exception": {
+                    "raised": "N",
+                    "uncaught": "",
+                    "userUnhandled": ""
+                }
+            }
+        },
+        "standart_django_config": {
+            "adapter": "debugpy",
+            "configuration": {
+                "request": "launch",
+                "stopOnEntry": true,
+                "python": "${VIRTUAL_ENV}/bin/python3",
+                "program": "${workspaceRoot}/manage.py",
+                "args": [
+                    "runserver",
+                    "localhost:5555"
+                ],
+                "django": true
+            },
+            "breakpoints": {
+                "exception": {
+                    "raised": "N",
+                    "uncaught": "",
+                    "userUnhandled": ""
+                }
+            }
+        }
+    }
+}
