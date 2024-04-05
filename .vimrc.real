@@ -60,6 +60,20 @@ Plug 'puremourning/vimspector'
 Plug 'liuchengxu/vista.vim'
 "Toggle = <F2>
 
+Plug 'Yggdroot/indentLine'
+"Show indents
+let g:indentLine_color_term = 239
+"to gray color
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
+"FZF
+
+Plug 'easymotion/vim-easymotion'
+map s <Plug>(easymotion-overwin-f)
+"easy motion
+
 call plug#end()
 
 
@@ -90,6 +104,10 @@ nmap <F2> :Vista!!<CR>
 nmap <F3> :ALEFix<CR>
 map <C-n> :NERDTreeToggle<CR>
 nmap <F5> :w<CR>:!python3 %<CR>
+nmap <Leader>ff :Files<CR>
+nmap <Leader>fg :GFiles<CR>
+nmap <Leader>fb :Buffers<CR>
+nmap <Leader>fr :Rg<CR>
 
 "settings to debugger
 "leader \
