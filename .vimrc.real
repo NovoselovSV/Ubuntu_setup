@@ -107,6 +107,7 @@ nmap <F5> :w<CR>:!python3 %<CR>
 nmap <Leader>ff :Files<CR>
 nmap <Leader>fg :GFiles<CR>
 nmap <Leader>fb :Buffers<CR>
+nmap <Leader>fj :Jumps<CR>
 nmap <Leader>fr :Rg<CR>
 
 "settings to debugger
