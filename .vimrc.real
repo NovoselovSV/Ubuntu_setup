@@ -26,7 +26,6 @@ Plug 'honza/vim-snippets'
 "Default snipets
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 Plug 'tpope/vim-fugitive'
 ":Gedit HEAD~3:% loads the current file as it existed 3 commits ago.
@@ -109,6 +108,7 @@ nmap <Leader>fg :GFiles<CR>
 nmap <Leader>fb :Buffers<CR>
 nmap <Leader>fj :Jumps<CR>
 nmap <Leader>fr :Rg<CR>
+nmap <Leader>fv :Vista finder<CR>
 
 "settings to debugger
 "leader \
