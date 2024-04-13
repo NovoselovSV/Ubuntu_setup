@@ -52,6 +52,15 @@ Plug 'davidhalter/jedi-vim'
 "Autocompletion
 "To change selection = (Ctrl+Space)
 "To pydock = Shift+k
+"Completion <C-Space>
+"Goto assignment <leader>g (typical goto function)
+"Goto definition <leader>d (follow identifier as far as possible, includes imports and statements)
+"Goto (typing) stub <leader>s
+"Show Documentation/Pydoc K (shows a popup with assignments)
+"Renaming <leader>r
+"Usages <leader>n (shows all the usages of a name)
+"Open module, e.g. :Pyimport os (opens the os module)
+
 
 Plug 'puremourning/vimspector'
 "debugger
@@ -109,6 +118,7 @@ nmap <Leader>fb :Buffers<CR>
 nmap <Leader>fj :Jumps<CR>
 nmap <Leader>fr :Rg<CR>
 nmap <Leader>fv :Vista finder<CR>
+let g:jedi#goto_command = "<leader>w"
 
 "settings to debugger
 "leader \
