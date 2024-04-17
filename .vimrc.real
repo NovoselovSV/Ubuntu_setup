@@ -15,9 +15,10 @@ Plug 'preservim/nerdtree'
 "Toggle = <c-n>
 
 Plug 'dense-analysis/ale'
-let g:ale_fixers = {'python': 'yapf'}
-"Lint - flake8
-"Fix - yapf
+let g:ale_fixers = {'python': ['autopep8']}
+let g:ale_python_autopep8_options = '-a -a -a'
+"Lint - flake8, ruff
+"Fix - autopep8
 "ALEFix = <F3>
 
 Plug 'SirVer/ultisnips'
