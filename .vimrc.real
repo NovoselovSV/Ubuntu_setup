@@ -91,6 +91,7 @@ set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
 
 Plug 'easymotion/vim-easymotion'
 map s <Plug>(easymotion-overwin-f)
+map / <Plug>(easymotion-sn)
 "easy motion
 
 call plug#end()
@@ -111,7 +112,8 @@ function! XTermPasteBegin()
 endfunction
 
 colorscheme gruvbox
-set background=dark
+set background=light
+
 set number
 set expandtab
 set tabstop=2
