@@ -45,6 +45,9 @@ Plug 'tpope/vim-surround'
 Plug 'tmsvg/pear-tree'
 "auto pair
 
+Plug 'mhinz/vim-startify'
+"start page
+
 Plug 'morhetz/gruvbox'
 autocmd vimenter * ++nested colorscheme gruvbox
 "colorsheme
