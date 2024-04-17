@@ -35,6 +35,13 @@ Plug 'tpope/vim-fugitive'
 ":Gwrite writes to both the work tree and index versions of a file, making it like git add when called from a work tree file and like git checkout when called from the index or a blob in history.
 ":Ggrep is :grep for git grep. :Glgrep is :lgrep for the same.
 
+Plug 'tpope/vim-surround'
+"surround
+"ds[any surrounding] - delete surrounding
+"cs[any surrounding][any surrounding] - change first on second
+"ys[area][any surrounding] - add surrounding
+"in visual mode - S
+
 Plug 'tmsvg/pear-tree'
 "auto pair
 
