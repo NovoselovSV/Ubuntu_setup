@@ -133,6 +133,10 @@ nmap <Leader>fr :Rg<CR>
 nmap <Leader>fv :Vista finder<CR>
 let g:jedi#goto_command = "<leader>w"
 
+"to fast move
+map <Esc>j 4j
+map <Esc>k 4k
+
 "settings to debugger
 "leader \
 nnoremap <Leader>dd :call vimspector#Launch()<CR>
