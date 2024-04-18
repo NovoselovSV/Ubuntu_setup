@@ -16,10 +16,12 @@ Plug 'preservim/nerdtree'
 
 Plug 'dense-analysis/ale'
 let g:ale_fixers = {'python': ['autopep8']}
+let g:ale_linters_ignore = {'python': ['pyright']}
 let g:ale_python_autopep8_options = '-a -a -a'
 "Lint - flake8, ruff
 "Fix - autopep8
 "ALEFix = <F3>
+"ALEImport = <leader><F3>
 
 Plug 'SirVer/ultisnips'
 "UltiSnips snipets engine
@@ -123,6 +125,7 @@ set incsearch
 
 nmap <F2> :Vista!!<CR>
 nmap <F3> :ALEFix<CR>
+nmap <Leader><F3> :ALEImport<CR>
 map <C-n> :NERDTreeToggle<CR>
 nmap <F5> :w<CR>:!python3 %<CR>
 nmap <Leader>ff :Files<CR>
