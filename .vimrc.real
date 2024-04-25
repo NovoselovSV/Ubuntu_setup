@@ -16,7 +16,14 @@ Plug 'preservim/nerdtree'
 
 Plug 'dense-analysis/ale'
 let g:ale_fixers = {'python': ['autopep8']}
-let g:ale_linters_ignore = {'python': ['pyright']}
+let g:ale_linters = {'python': ['flake8', 'pyright', 'ruff']}
+let g:ale_python_pyright_config = {
+  \ 'python': {
+  \ 'analysis': {
+  \ 'typeCheckingMode': 'off',
+  \ },
+  \ },
+  \}
 let g:ale_python_autopep8_options = '-a -a -a'
 "Lint - flake8, ruff
 "Fix - autopep8
