@@ -128,6 +128,7 @@ nmap <F3> :ALEFix<CR>
 nmap <Leader><F3> :ALEImport<CR>
 map <C-n> :NERDTreeToggle<CR>
 nmap <F5> :w<CR>:!python3 %<CR>
+map <Space> :w<CR>
 nmap <Leader>ff :Files<CR>
 nmap <Leader>fg :GFiles<CR>
 nmap <Leader>fb :Buffers<CR>
