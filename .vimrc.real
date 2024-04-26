@@ -44,6 +44,13 @@ Plug 'tpope/vim-fugitive'
 ":Gwrite writes to both the work tree and index versions of a file, making it like git add when called from a work tree file and like git checkout when called from the index or a blob in history.
 ":Ggrep is :grep for git grep. :Glgrep is :lgrep for the same.
 
+Plug 'airblade/vim-gitgutter'
+"for git marks
+"<Leader>hp Preview the hunk under the cursor.
+"<Leader>hs Stage the hunk under the cursor.
+"<Leader>hu Undo the hunk under the cursor.
+set updatetime=100
+
 Plug 'tpope/vim-surround'
 "surround
 "ds[any surrounding] - delete surrounding
