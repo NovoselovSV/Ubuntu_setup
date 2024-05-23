@@ -89,6 +89,14 @@ Plug 'davidhalter/jedi-vim'
 "Open module, e.g. :Pyimport os (opens the os module)
 
 
+Plug 'christoomey/vim-tmux-navigator'
+"To tmux
+"<ctrl-h> => Left
+"<ctrl-j> => Down
+"<ctrl-k> => Up
+"<ctrl-l> => Right
+"<ctrl-\> => Previous split
+
 Plug 'puremourning/vimspector'
 "debugger
 
