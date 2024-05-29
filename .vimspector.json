@@ -27,12 +27,12 @@
             "adapter": "debugpy",
             "configuration": {
                 "request": "launch",
-                "stopOnEntry": true,
+                "stopOnEntry": false,
                 "python": "${VIRTUAL_ENV}/bin/python3",
-                "program": "${workspaceRoot}/manage.py",
+                "program": "${PWD}/manage.py",
                 "args": [
                     "runserver",
-                    "localhost:5555"
+                    "localhost:8000"
                 ],
                 "django": true
             },
