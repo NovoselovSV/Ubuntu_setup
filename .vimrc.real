@@ -25,6 +25,7 @@ let g:ale_python_pyright_config = {
   \ },
   \}
 let g:ale_python_autopep8_options = '-a -a -a'
+let g:ale_virtualtext_cursor = 'disabled'
 "Lint - flake8, ruff
 "Fix - autopep8
 "ALEFix = <F3>
