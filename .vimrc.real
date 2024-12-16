@@ -154,6 +154,7 @@ set incsearch
 nmap <F2> :Vista!!<CR>
 nmap <F3> :ALEFix<CR>
 nmap <Leader><F3> :ALEImport<CR>
+nmap <Leader><Leader><F3> :!isort % <CR>
 map <C-n> :NERDTreeToggle<CR>
 nmap <F5> :w<CR>:!python3 %<CR>
 map <Space> :w<CR>
