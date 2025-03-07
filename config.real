@@ -35,7 +35,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 assign [class="^Postman$"] 2
-assign [class="^firefox$"] 3
+assign [class="firefox"] 3
 exec gnome-terminal
 exec postman
 exec firefox
