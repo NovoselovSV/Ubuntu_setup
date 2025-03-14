@@ -109,6 +109,9 @@ Plug 'puremourning/vimspector'
 Plug 'liuchengxu/vista.vim'
 "Toggle = <F2>
 
+Plug 'mbbill/undotree'
+"Toggle = <F4>
+
 Plug 'Yggdroot/indentLine'
 "Show indents
 let g:indentLine_color_term = 239
@@ -157,6 +160,7 @@ nmap <Leader><F3> :ALEImport<CR>
 nmap <Leader><Leader><F3> :!isort % <CR>
 map <C-n> :NERDTreeToggle<CR>
 nmap <F5> :w<CR>:!python3 %<CR>
+nmap <F4> :UndotreeToggle<CR>
 map <Space> :w<CR>
 nmap <Leader>ff :Files<CR>
 nmap <Leader>fg :GFiles<CR>
